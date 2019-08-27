@@ -1,6 +1,6 @@
 {
-  "name": "holidate",
-  "version": "1.2.5",
+  "name": "@hamilton19/holidate",
+  "version": "1.0.1",
   "description": "There's no feature for visitors",
   "main": "index.js",
   "scripts": {

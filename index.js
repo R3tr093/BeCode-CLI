@@ -21,6 +21,10 @@ log();
 log();
 
 
+var Time = new Date().getFullYear()
+Time = String(Time);
+
+
 
 // Need this to convert country name into an country code to implement at our get request, so for this we use country-list.
 const { getCode, getName } = require('country-list');
@@ -112,7 +116,7 @@ const getCountry = (param) => {
   var i = 0;
 
   // use axios to send an HTTP GET request to an API
-  axios.get('https://date.nager.at/api/v2/publicholidays/2019/' + param)
+  axios.get('https://date.nager.at/api/v2/publicholidays/'+ Time + "/" + param)
   .then(function (response) {
     
     var dataLength = response.data.length;
