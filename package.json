@@ -1,0 +1,31 @@
+{
+  "name": "holidate",
+  "version": "1.2.5",
+  "description": "There's no feature for visitors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R3tr093/BeCode-CLI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "holidate": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/R3tr093/BeCode-CLI/issues"
+  },
+  "homepage": "https://github.com/R3tr093/BeCode-CLI#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "chalk": "^2.4.2",
+    "country-list": "^2.2.0",
+    "figlet": "^1.2.3",
+    "inquirer": "^7.0.0",
+    "ora": "^3.4.0"
+  },
+  "devDependencies": {}
+}
